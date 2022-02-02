@@ -1,0 +1,40 @@
+*{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  outline: none;
+  border: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: #B1B1B1;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+}
+
+.color-box{
+  width: 100%;
+  height: 200px;
+  background: #FFAAAA;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+progress.xp {
+   -webkit-appearance: none;
+   appearance: none;
+
+}
+progress.xp::-webkit-progress-value{
+    background:red;
+}
